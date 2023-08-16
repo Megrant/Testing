@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background-color: aquamarine;
+}
+div{
+    position: absolute;
+    background-color: white;
+    height: 50%;
+    width:300px;
+    left: 40%;
+    top: 40px;
+}
+.bb{
+    position: relative;
+    top: 20px;
+    left: 90px;
+}
+.aa{
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+button{
+    color: white;
+    background-color: black;
+    position: relative;
+    top: 60px;
+    border: none;
+
+}
+button:hover{
+    color: black;
+    background-color: white;
+    
+}
