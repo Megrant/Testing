@@ -12,8 +12,13 @@ div{
     background-color: white;
     height: 50%;
     width:300px;
-    left: 40%;
-    top: 40px;
+    left: 35%;
+    top: 130px;
+    border-radius: 15px;
+    box-shadow: 0 0 55px red;
+}
+div:hover{
+    background-color:gray;
 }
 .bb{
     position: relative;
@@ -29,8 +34,11 @@ button{
     color: white;
     background-color: black;
     position: relative;
-    top: 60px;
+    top: 80px;
+    right: -80px;
     border: none;
+    border-radius: 40px;
+    padding: 20px 50px 20px 50px;
 
 }
 button:hover{
